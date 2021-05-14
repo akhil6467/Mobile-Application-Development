@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It's Me"
+        android:textAlignment="center"
+        android:textColor="#5C9ACC"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        android:id="@+id/tv1"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know More"
+        android:textSize="15sp"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/b1"
+        android:onClick="Display"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hey There!"
+        android:textAlignment="center"
+        android:textColor="#5C9ACC"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        android:id="@+id/tv2"
+        tools:ignore="DuplicateIds"></TextView>
+</LinearLayout>
