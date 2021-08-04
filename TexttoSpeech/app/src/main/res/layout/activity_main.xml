@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text to Speech App :)"
+        android:textAlignment="center"
+
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:id="@+id/pitch"
+        android:layout_marginTop="60dp"
+        android:textSize="27dp"
+        android:hint="Enter Pitch\n(1.0 is Normal)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/speech"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="40dp"
+        android:textSize="27dp"
+        android:hint="Enter Speech rate\n(1.0 is Normal)"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/convert"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="40dp"
+        android:textSize="27dp"
+        android:hint="Enter Text\n(To be converted)"/>
+
+    <Button
+        android:id="@+id/convertbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:onClick="convert"
+        android:text="Convert"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#AEEA00" />
+
+</LinearLayout>
